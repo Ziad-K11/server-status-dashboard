@@ -1,5 +1,7 @@
+"use client";
+
 const DashboardPage = () => {
-    // Mock data for servers
+   
     const servers = [
         { name: "Server 1", status: "Up", ip: "192.168.1.1", responseTime: "123 ms", uptime: "99.9%" },
         { name: "Server 2", status: "Down", ip: "192.168.1.2", responseTime: "N/A", uptime: "N/A" },
